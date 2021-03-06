@@ -25,7 +25,7 @@ SECRET_KEY = '^s5ye%nsa4-jeb%rn^d@2)=xi2=-91x%7k_mqva$cw3^ydwx%7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-3-141-17-215.us-east-2.compute.amazonaws.com']
 
 
 AUTH_USER_MODEL = "profiles_api.UserProfile"
